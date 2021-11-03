@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, indigo, blue);
+}
+
+
+.calsi{
+  
+  
+  width: 500px;
+  padding-top: 100px;
+  padding-left: 100px;
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%,-50%);
+  transition: 0.25px;
+  text-align: center;
+  
+}
+#display{
+  border: none;
+  border-radius: 300px;
+  background-color: floralwhite;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin: auto;
+  height: 60px;
+  border: 2px solid;
+  color: brown;
+  
+}
+
+.btnDesign{
+  height: 55px;
+  width: 55px;
+  padding-top: 10px;
+  font-size: x-large;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 30px;
+  margin: 2.5;
+  
+}
+
+.OperatorDesign{
+  height: 55px;
+  width: 55px;
+  padding-top: -1;
+  font-size: x-large;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 30px;
+  margin: 2.5;
+  transition: 0.25px;
+  cursor: pointer;
+  
+}
+.OperatorDesign:hover{
+  background-color: red;
+}
+
+#zero{
+  height: 55px;
+  width: 116px;
+  padding-top: -1;
+  font-size: x-large;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 30px;
+  margin: 2.5;
+  transition: 0.25px;
+}
+
+h1{
+  color: floralwhite;
+  margin-top: 500px;
+  margin-left: 100px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-decoration: underline;
+  
+}
